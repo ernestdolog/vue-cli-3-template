@@ -1,0 +1,22 @@
+{
+  "name": "frontend-server",
+  "version": "1.0.0",
+  "description": "Node server for frontend projects.",
+  "main": "server.js",
+  "engines": {
+    "node": "v9.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_ENV=production; npm install; node server.js"
+  },
+  "author": "Ernest Dolog <ernest.dolog@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "compression": "1.7.3",
+    "express": "4.16.3",
+    "helmet": "3.13.0",
+    "raven": "^2.6.4",
+    "serve-favicon": "2.5.0"
+  }
+}
