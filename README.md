@@ -68,4 +68,4 @@ $ npm run lint
 ```
 
 
-docker build -f infrastructure/Dockerfile -t %docker-image-name%:$version .
+docker build -f .Dockerfile -t %docker-image-name%:$version .
